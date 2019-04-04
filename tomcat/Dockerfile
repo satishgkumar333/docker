@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:6
 RUN yum install -y wget \
         &&  wget https://www.dropbox.com/s/zw3p1ym52dv3sdv/jdk-8u181-linux-x64.tar.gz \
         && tar xzf jdk-8u181-linux-x64.tar.gz \
